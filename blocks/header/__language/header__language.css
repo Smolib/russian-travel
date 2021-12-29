@@ -1,0 +1,19 @@
+.header__language {
+  display: inline-block;
+  margin: 18px 18px 6px 0;
+  text-decoration: none;
+  color: #fff;
+  font-size: 24px;
+  line-height: 1.17;
+}
+
+.header__language:last-of-type {
+  margin-right: 0;
+}
+
+@media screen and (max-width: 470px) {
+  .header__language {
+    font-size: 18px;
+    line-height: 1.1;
+  }
+} 

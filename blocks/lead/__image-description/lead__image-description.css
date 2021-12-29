@@ -1,0 +1,20 @@
+.lead__image-description {
+  margin: 8px 0 0;
+  font-size: 10px;
+  line-height: 1.4;
+  color: #fff;
+  text-transform: uppercase;
+  align-self: flex-start;
+}
+
+@media screen and (max-width: 940px) {
+  .lead__image-description {
+    margin-left: 24px;
+  }
+}
+
+@media screen and (max-width: 470px) {
+  .lead__image-description {
+    margin-left: 16px;
+  }
+} 
