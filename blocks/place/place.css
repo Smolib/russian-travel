@@ -1,0 +1,30 @@
+.place {
+  display: grid;
+  column-gap: 40px;
+  row-gap: 48px;
+  grid-template-columns: calc(50% - 20px - 12px) calc(50% - 20px + 12px);
+  padding-top: 80px;
+}
+
+@media screen and (max-width: 1100px)  {
+  .place {
+    column-gap: 32px;
+    grid-template-columns: calc(50% - 16px - 8px) calc(50% - 16px + 8px);
+  }
+}
+
+@media screen and (max-width: 900px)  {
+  .place {
+    column-gap: 28px;
+    grid-template-columns: calc(50% - 14px - 6px) calc(50% - 14px + 6px);
+    padding-top: 73px;
+  }
+}
+
+@media screen and (max-width: 600px)  {
+  .place {
+    row-gap: 32px;
+    grid-template-columns: 100%;
+    padding-top: 50px;
+  }
+}
