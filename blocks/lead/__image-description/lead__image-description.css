@@ -1,5 +1,6 @@
 .lead__image-description {
-  margin: 8px 0 0;
+  margin: 0;
+  padding-top: 8px;
   font-size: 10px;
   line-height: 1.4;
   color: #fff;
@@ -7,14 +8,14 @@
   align-self: flex-start;
 }
 
-@media screen and (max-width: 940px) {
+@media screen and (max-width: 1000px) {
   .lead__image-description {
-    margin-left: 24px;
+    padding-left: 24px;
   }
 }
 
-@media screen and (max-width: 470px) {
+@media screen and (max-width: 600px) {
   .lead__image-description {
-    margin-left: 16px;
+    padding-left: 16px;
   }
 } 

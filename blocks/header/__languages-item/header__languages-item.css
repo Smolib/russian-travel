@@ -1,0 +1,10 @@
+.header__languages-item {
+  margin: 0;
+  padding: 18px 18px 6px 0;
+  list-style-type: none;
+  display: inline-block;
+}
+
+.header__languages-item:last-of-type {
+  padding-right: 0;
+}
