@@ -11,11 +11,11 @@
   .lead__subtitle {
     padding-bottom: 56px;
   }
-} 
+}
 
 @media screen and (max-width: 600px) {
   .lead__subtitle {
     padding-bottom: 40px;
     line-height: 1.25;
   }
-} 
+}
