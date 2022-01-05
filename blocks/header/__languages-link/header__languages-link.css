@@ -5,6 +5,10 @@
   line-height: 1.17;
 }
 
+.header__languages-link:hover {
+  opacity: 80%;
+}
+
 @media screen and (max-width: 600px) {
   .header__languages-link {
     font-size: 18px;
